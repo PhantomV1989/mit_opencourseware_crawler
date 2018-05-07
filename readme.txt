@@ -3,7 +3,7 @@ This code crawls for all course zip materials from a particular subject.
 In this example, I am using the html file from Mathematics. You need to first save the web page to some local location.
 The code will extract all the module codes and download the zip files accordingly with some structured url pattern.
 
-You need to change 3 things when you change the subject html page.
+You need to change 3 things when you want to crawl a new OCW MIT web page.
 1) htmlPath = @"C:\someFolder\Mathematics   MIT OpenCourseWare   Free Online Course Materials";
 Change the above path accordingly to the html
 

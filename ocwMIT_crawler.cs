@@ -27,8 +27,7 @@ namespace OCW_MIT_downloader
             
             var moduleCodes = GetModuleCodes(htmlPath, modID, splitter);
             foreach(var c in moduleCodes)
-                DownloadModule(c, modID, folderPath);
-         
+                DownloadModule(c, modID, folderPath);         
         }
 
 
